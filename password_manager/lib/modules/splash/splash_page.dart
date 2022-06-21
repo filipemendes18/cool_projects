@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:password_manager/shared/themes/app_colors.dart';
+import 'package:password_manager/shared/themes/app_images.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({Key? key}) : super(key: key);
@@ -10,7 +11,7 @@ class SplashPage extends StatelessWidget {
       backgroundColor: AppColors.background,
       body: Center(
         child: Image.asset(
-          'assets/images/lock_gif.gif',
+          AppImages.logoGif,
           width: 250,
           height: 250,
         ),
